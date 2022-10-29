@@ -15,7 +15,7 @@ const MovieList = () => {
 
   const renderMovies = movies.Response === "True" ? (
     movies.Search.map((movie, index) => (
-      <Grid item key={index} xs={4} sm={3} md={3} lg={2}>
+      <Grid item key={index} xxs={6} xs={4} sm={3} md={3} lg={2}>
         <MovieCard key={index} movie={movie}/>
       </Grid>
     ))
