@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import React, { useEffect } from "react";
 import MovieList from "components/MovieList";
 import { useDispatch } from "react-redux";
@@ -13,9 +12,9 @@ function Home() {
   }, [dispatch]);
 
   return (
-    <Box>
+    <>
       <MovieList />
-    </Box>
+    </>
   );
 }
 
